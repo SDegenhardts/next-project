@@ -10,5 +10,6 @@
   flex-direction: column;
   place-items: center;
   gap: 10%;
-  background-color: gray;
+  background-color: rgb(209, 206, 206);
+  backdrop-filter: blur(80%);
 }
