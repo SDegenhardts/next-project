@@ -1,6 +1,8 @@
 .container {
   display: flex;
   justify-content: center;
+  box-shadow: rgb(134, 134, 134)
+
 }
 
 .container div {
@@ -11,5 +13,8 @@
   place-items: center;
   gap: 10%;
   background-color: rgb(209, 206, 206);
-  backdrop-filter: blur(80%);
+  backdrop-filter: blur(100px);
+  border-radius: 1em;
 }
+
+

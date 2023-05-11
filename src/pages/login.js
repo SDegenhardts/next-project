@@ -4,10 +4,9 @@ export default function Login() {
   return (
     <section className={styles.container}>
       <div>
-        <input placeholder='Nome'></input>
-        <input placeholder='Email'></input>
-        <input placeholder='Senha'></input>
-        <button><a href='/'>Voltar</a></button>
+        <input placeholder='Username or Email'></input>
+        <input placeholder='Password'></input>
+        <button><a href='/'>To Start</a></button>
       </div>
     </section>
   )
