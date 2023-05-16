@@ -18,6 +18,8 @@ input {
   -webkit-transition: all 250ms;
   transition: all 250ms;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
  }
  
  input::before {
