@@ -58,6 +58,11 @@ input {
   transition: all 250ms;
   overflow: hidden;
  }
+
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
  
  button::before {
   content: "";
