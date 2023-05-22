@@ -1,20 +1,23 @@
 import styles from '@/styles/login/Login.module.css'
 
+import { useRouter } from 'next/router';
+
 export default function Login() {
+  const router = useRouter()
   let users = [
     {
       email:"santhiago.dg@hotmail.com", 
       password: "senhaforte1",
+      age: 21
     }
   ]
   function signIn(){
     let email = document.getElementById("email").value
     let password = document.getElementById("password").value
-    // console.log(email,password)
-    users.find(i => {
-      i.email === email &&
-      i.password === password
-    })
+    let user = users.find(i => i.email === email &&  i.password === password)
+    if (user) {
+      router.push('/');
+    }
   }
   return (
     <section className={styles.container}>
@@ -24,7 +27,7 @@ export default function Login() {
         </h1>
         <input id="email" placeholder='Username or Email'></input>
         <input id="password"placeholder='Password'></input>
-        <button onClick={signIn}><a href='#'>To Start</a></button>
+        <button onClick={signIn}>click</button>
         {/* <link href='/'>Ainda não possui uma conta ?</link> */}
       </div>
     </section>
