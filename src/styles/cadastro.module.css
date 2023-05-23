@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(134, 134, 134)
+  
+  }
+  
+  .container div {
+    width: 45vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center ;
+    gap: 5%;
+    background-color: rgba(255, 255, 255, 0.733);
+    backdrop-filter: blur(5px);
+    border-radius: 1em;
+  }
+  
+  .font {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7em;
+    font-style: italic;
+  }
+  
+  
+  
