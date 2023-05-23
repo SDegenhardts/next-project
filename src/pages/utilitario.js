@@ -1,0 +1,26 @@
+import styles from '@/styles/Home.module.css'
+
+export default function Home() {
+  return (
+    <section className={styles.container}>
+      <div className={styles.fundo}>
+        <div className={styles.buttonhome}>
+          <button><a href='/'>LOGOUT</a></button>
+        </div>
+        <div className={styles.fonthome}>
+          <h1 className={styles.font}>
+            BEM VINDO AO SEU LOGIN
+          </h1>
+        </div>
+        <div className={styles.fonthome2}>
+          <h2>
+            devido as atuais circustancias isto é apenas um teste, obrigada pela sua atenção 
+          </h2>
+          </div>
+          <div>
+            
+          </div>
+      </div>
+    </section>
+  )
+}

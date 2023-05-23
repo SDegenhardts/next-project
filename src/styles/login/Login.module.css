@@ -6,8 +6,8 @@
 }
 
 .container div {
-  width: 45%;
-  height: 85vw;
+  width: 45vw;
+  height: 45vw;
   display: flex;
   flex-direction: column;
   place-items: center;

@@ -5,7 +5,7 @@ export default function Home() {
     <section className={styles.container}>
       <div className={styles.fundo}>
         <div className={styles.buttonhome}>
-          <button><a href='/login'>Login</a></button>
+          <button><a href='/login'>LOGIN</a></button>
         </div>
         <div className={styles.fonthome}>
           <h1 className={styles.font}>

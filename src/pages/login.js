@@ -6,18 +6,20 @@ export default function Login() {
   const router = useRouter()
   let users = [
     {
-      email:"santhiago.dg@hotmail.com", 
+      username: 'Santhiago Degenhardt',
+      email:"santhiago.dg@hotmail.com",
       password: "senhaforte1",
-      age: 21
     }
   ]
   function signIn(){
     let email = document.getElementById("email").value
     let password = document.getElementById("password").value
-    let user = users.find(i => i.email === email &&  i.password === password)
+    let user = users.find(i => i.email === email  &&  i.password === password)
     if (user) {
-      router.push('/');
+      router.push('/utilitario');
     }
+    //console.log(user)
+    if (!user) alert ("Usuario ou senha incorretos")
   }
   return (
     <section className={styles.container}>
@@ -27,7 +29,7 @@ export default function Login() {
         </h1>
         <input id="email" placeholder='Username or Email'></input>
         <input id="password"placeholder='Password'></input>
-        <button onClick={signIn}>click</button>
+        <button onClick={signIn}>Ready</button>
         {/* <link href='/'>Ainda não possui uma conta ?</link> */}
       </div>
     </section>
