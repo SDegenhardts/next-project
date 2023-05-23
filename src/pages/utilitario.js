@@ -4,9 +4,14 @@ export default function Home() {
   return (
     <section className={styles.container}>
       <div className={styles.fundo}>
+      <div>
+            <input className={styles.busca} placeholder="Search">
+            </input> 
+          </div>
         <div className={styles.buttonhome}>
           <button><a href='/'>LOGOUT</a></button>
         </div>
+        <div className={styles.box}>
         <div className={styles.fonthome}>
           <h1 className={styles.font}>
             BEM VINDO AO SEU LOGIN
@@ -19,6 +24,7 @@ export default function Home() {
           </div>
           <div>
             
+          </div>
           </div>
       </div>
     </section>
