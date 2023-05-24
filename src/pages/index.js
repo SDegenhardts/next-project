@@ -7,6 +7,7 @@ export default function Home() {
         <div className={styles.buttonhome}>
           <button><a href='/login'>LOGIN</a></button>
         </div>
+        <div className={styles.boxhome}>
         <div className={styles.fonthome}>
           <h1 className={styles.font}>
             WELCOME STRANGER
@@ -14,11 +15,12 @@ export default function Home() {
         </div>
         <div className={styles.fonthome2}>
           <h2>
-          ERA UMA VEZ UM MENINO QUE TINHA 15 ANOS, ELE QUERIA VIVER UMA AVENTURA NA FLORESTA ASSOMBRADA, MAS ELE NUNCA PODE VIVER UMA AVENTURA, ENTÃO ELE RESOLVEU VIVER UMA AVENTURA NA FLORESTA ASSOMBRADA.
+          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
           </h2>
           </div>
           <div>
-            
+            </div>
           </div>
       </div>
     </section>
