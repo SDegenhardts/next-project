@@ -8,7 +8,7 @@ export default function Home() {
         <div className={styles.menu}>
           <div className={styles.icon}>
             <RiSearchLine/>
-            <input className={styles.busca} placeholder="Search">
+            <input className={styles.busca} placeholder="    Search">
             </input>
           </div>
           <button className={styles.add}>
