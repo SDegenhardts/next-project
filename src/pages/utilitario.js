@@ -1,14 +1,15 @@
-import styles from '@/styles/Home.module.css'
-import {RiSearchLine} from 'react-icons/ri'
+import styles from '@/styles/utilitario/utilitario.module.css'
+import {BiSearchAlt} from 'react-icons/bi'
 
 export default function Home() {
   return (
     <section className={styles.container}>
       <div className={styles.fundo}>
         <div className={styles.menu}>
-          <div className={styles.icon}>
-            <RiSearchLine/>
-            <input className={styles.busca} placeholder="    Search">
+          
+          <div className={styles.icon1}>
+            <BiSearchAlt className={styles.icon2}/>
+            <input className={styles.busca} placeholder="Search">
             </input>
           </div>
           <button className={styles.add}>

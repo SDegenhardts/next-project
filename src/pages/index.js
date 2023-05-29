@@ -1,10 +1,11 @@
 import styles from '@/styles/Home.module.css'
 
+
 export default function Home() {
   return (
     <section className={styles.container}>
       <div className={styles.fundo}>
-        <div className={styles.buttonhome}>
+        <div className={styles.menu}>
           <button><a href='/login'>LOGIN</a></button>
         </div>
         <div className={styles.boxhome}>

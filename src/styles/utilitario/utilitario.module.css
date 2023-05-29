@@ -1,26 +1,116 @@
 .container {
-    display: flex;
-    justify-content: center;
-    box-shadow: rgb(134, 134, 134)
+  display: flex;
+  justify-content: center;
+  box-shadow: rgb(134, 134, 134)
+}
+
+.container .fundo {
+width: 80vw;
+height: 45vw;
+display: flex;
+flex-direction: column;
+place-items: center;
+justify-content: center;
+/* gap: 10%; */
+background-color: rgba(255, 255, 255, 0.733);
+backdrop-filter: blur(5px);
+border-radius: 1em;
+}
+
+.menu{
+  padding-bottom: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12em;
+}
+
+
+.box {
+  background-color: rgb(255, 255, 255);
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75vw;
+  height: 35vw;
+  text-align: center;
+}
+
+.boxhome {
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75vw;
+  height: 35vw;
+  text-align: center;
+}
+
+.box .fonthome {
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2.2em;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box .fonthome2 {
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 60%;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.boxhome .fonthome {
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2.2em;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.boxhome .fonthome2 {
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 60%;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.busca {
+  outline-style: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+}
+
+.buttonhome {
+  display: flex;
+  justify-content: flex-end;
   
-  }
-  
-  .container div {
-    width: 45vw;
-    height: 45vw;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    justify-content: center ;
-    gap: 10%;
-    background-color: rgba(255, 255, 255, 0.733);
-    backdrop-filter: blur(5px);
-    border-radius: 1em;
-  }
-  
-  .font {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2.7em;
-    font-style: italic;
-  }
-  
+}
+
+.icon1{
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  border: solid 1px ;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-left: 15px;
+
+}
+
+.icon2{
+  background-color: transparent;
+  outline-style: none;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 2;
+}

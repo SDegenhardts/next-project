@@ -27,8 +27,8 @@ export default function Login() {
         <h1 className={styles.font}>
           SIGN IN
         </h1>
-        <input id="email" placeholder='Username or Email'></input>
-        <input id="password"placeholder='Password'></input>
+        <input id="email"type='email' placeholder='Username or Email'></input>
+        <input id="password"typeof='password' type='password' placeholder='Password'></input>
         <button onClick={signIn}>Ready</button>
         <h1> <a href="/cadastro">
           Não possui um cadastro?
